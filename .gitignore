@@ -1,5 +1,6 @@
 # Data and heavy artifacts (never tracked, live on the data disk instead)
 data/
+/data
 results/logs/*
 !results/logs/.gitkeep
 *.pt
