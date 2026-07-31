@@ -1,6 +1,7 @@
 # Data and heavy artifacts (never tracked, live on the data disk instead)
 data/
-results/logs/
+results/logs/*
+!results/logs/.gitkeep
 *.pt
 *.pth
 *.npy
@@ -18,6 +19,7 @@ results/logs/
 results/runs/**
 !results/runs/**/
 !results/runs/**/run_metadata.json
+!results/runs/.gitkeep
 
 # Notebooks: exploratory only, don't track outputs
 .ipynb_checkpoints/
